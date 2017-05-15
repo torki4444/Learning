@@ -15,4 +15,5 @@ private class DailyLeadProcessorTest {
         Test.startTest();
         String jobId = System.schedule('DailyLeadProcessor', CRON_EXP, new DailyLeadProcessor());
     }
+
 }
