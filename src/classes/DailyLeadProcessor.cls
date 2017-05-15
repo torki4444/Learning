@@ -14,4 +14,5 @@ global class DailyLeadProcessor implements Schedulable {
             update lList;
         }
     }
+
 }
